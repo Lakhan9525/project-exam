@@ -1,0 +1,27 @@
+#navabr{
+    display:flex;
+    justify-content: space-evenly;
+}
+#search_input{
+    height: 50px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+sidebar{
+    display: flex;
+    flex-direction: column;
+}
+
+#results{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+    margin-left: 20%;
+}
+#box{
+    display: flex;
+}
+#image{
+    width:30%;
+}
